@@ -197,6 +197,7 @@ void loop()
     
         delay(2*H);
 
+/* This delay prevents the motion detector from sensing its own vibration */
         delay(1000);
     } 
     else 
